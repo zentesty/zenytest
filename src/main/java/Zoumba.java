@@ -7,12 +7,15 @@ import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 
 public class Zoumba {
 
+    static private int objCount = 0;
     private String name = "";
     private int size = 0;
+
 
     public Zoumba(String name, int size) {
         this.size = size;
         this.name = name;
+        Zoumba.objCount++;
     }
 
     @Override
