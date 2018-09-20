@@ -10,12 +10,15 @@ public class Zoumba {
     static private int objCount = 0;
     private String name = "";
     private int size = 0;
+    private int nType = 1;
 
 
-    public Zoumba(String name, int size) {
+    public Zoumba(String name, int size, int type) {
+        Zoumba.objCount++;
+
         this.size = size;
         this.name = name;
-        Zoumba.objCount++;
+        this.nType = type;
     }
 
     @Override
@@ -23,11 +26,12 @@ public class Zoumba {
         return "Zoumba{" +
                 "name='" + name + '\'' +
                 ", size=" + size +
+                ", nType=" + nType +
                 '}';
     }
 
     public static void main(String[] args) {
-        Zoumba zoubaObj = new Zoumba("Zom Coco", 12);
+        Zoumba zoubaObj = new Zoumba("Zom Coco", 12, 150);
         System.out.println(" Object == " + zoubaObj.toString());
     }
 
