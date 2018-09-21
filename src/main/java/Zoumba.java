@@ -10,7 +10,7 @@ public class Zoumba {
     static private int objCount = 0;
     private String name = "";
     private int size = 0;
-    private int nType = 22;
+    private int nType = 30;
     private String szAdded = "master branch";
 
 
