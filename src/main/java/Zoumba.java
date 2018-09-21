@@ -11,7 +11,7 @@ public class Zoumba {
     private String name = "";
     private int size = 0;
     private int nType = 30;
-    private String szAdded = "master branch";
+    private String szAdded = "zt-002";
 
 
     public Zoumba(String name, int size, int type) {
