@@ -11,6 +11,7 @@ public class Zoumba {
     private String name = "";
     private int size = 0;
     private int nType = 10;
+    private String szAdded = "ZT-001";
 
 
     public Zoumba(String name, int size, int type) {
